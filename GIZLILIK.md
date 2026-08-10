@@ -6,7 +6,7 @@ title: Gloria Gizlilik Politikası
 
 Son güncelleme: 10 Ağustos 2026
 
-Gloria, komutları ve sunucu özelliklerini çalıştırmak için gerekli olan en az veriyi işler. Bu dosya dağıtımdan önce herkese açık bir HTTPS adresinde yayımlanmalı ve adresi `PRIVACY_POLICY_URL` değişkenine yazılmalıdır.
+Gloria, komutları ve sunucu özelliklerini çalıştırmak için gerekli olan en az veriyi işler. 
 
 ## İşlenen veriler
 
