@@ -14,4 +14,4 @@ Gloria'yı bir sunucuya ekleyen veya komutlarını kullanan kişiler bu şartlar
 - Hizmet, bakım veya Discord/API değişiklikleri nedeniyle geçici olarak kesilebilir. Veri kaybına karşı yedekleme yapılsa da kesintisiz hizmet garantisi verilmez.
 - Kullanıcılar kendi sunucularındaki Gloria verilerini `/kullanıcıbilgi` komutundaki veri silme seçeneğiyle silebilir; gizlilik ayrıntıları `GIZLILIK.md` içindedir.
 
-Bu dosya üretimden önce herkese açık bir HTTPS adresinde yayımlanmalı ve adresi `TERMS_OF_SERVICE_URL` değişkenine yazılmalıdır. Sorular için `/bildir` veya `/katıl` kullanılabilir.
+Sorular için `/bildir` veya `/katıl` kullanılabilir.
