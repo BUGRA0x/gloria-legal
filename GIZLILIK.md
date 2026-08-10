@@ -1,3 +1,7 @@
+---
+layout: default
+title: Gloria Gizlilik Politikası
+---
 # Gloria Gizlilik ve Veri Saklama Politikası
 
 Son güncelleme: 10 Ağustos 2026
