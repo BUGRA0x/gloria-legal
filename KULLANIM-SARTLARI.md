@@ -1,3 +1,7 @@
+---
+layout: default
+title: Gloria Kullanım Şartları
+---
 # Gloria Kullanım Şartları
 
 Son güncelleme: 10 Ağustos 2026
