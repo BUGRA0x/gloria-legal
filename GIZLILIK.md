@@ -15,7 +15,6 @@ Gloria, komutları ve sunucu özelliklerini çalıştırmak için gerekli olan e
 - Rütbe sistemi yönetici tarafından açılmışsa sunucu içindeki mesaj/ses etkinliği toplamları. Rütbe takibi yeni sunucularda kapalıdır.
 - Destek sistemi açıksa ticket sahibi, kategori, zaman, destek istatistiği ve ticket mesaj transkripti.
 - Müzik tercihleri, geri bildirimleri ve kısa dinleme geçmişi.
-- `/bildir` ile kullanıcının bilerek gönderdiği metin, kullanıcı/sunucu/kanal kimlikleri ve yalnızca yetkili açıkça isterse 24 saatlik tek kullanımlık davet.
 
 Gloria mesaj içeriğini genel amaçlı olarak saklamaz. Destek transkriptleri yalnızca botun doğruladığı ticket kanallarında oluşturulur.
 
@@ -27,12 +26,7 @@ Veriler, kullanıcının istediği bot işlevini sunmak, sunucu yöneticisinin e
 - Discord yedek kanalındaki bot yedekleri varsayılan olarak 30 gün saklanır ve yeni yedek öncesinde süresi dolan bot mesajları temizlenir.
 - Rütbenin günlük kanal ayrıntıları 90 gün tutulur; toplamlar kullanıcı silme talebine veya botun sunucudan ayrılmasına kadar saklanır.
 - Bot bir sunucudan çıkarıldığında o sunucuya ait yerel yapılandırma, istatistik, ticket ve müzik kayıtları otomatik temizlenir.
-- Kullanıcılar `/kullanıcıbilgi veri-işlemi:Verilerimi sil` yoluyla bulunduğu sunucudaki Gloria kayıtlarını silebilir.
 - Discord üzerindeki mesajlar ve sunucu yöneticilerinin Discord içinde tuttuğu kayıtlar Gloria'nın yerel silme işleminin kapsamında değildir.
-
-## Paylaşım ve güvenlik
-
-Veriler satılmaz. `/bildir` içeriği Gloria geliştiricisinin özel bildirim kanalına gönderilir. Yapılandırmalar SQLite WAL ve atomik JSON yedeğiyle sunucu bazında ayrılır; destek istatistikleri başka sunuculara gösterilmez. Üretim diski veya volume, sağlayıcının at-rest şifrelemesiyle korunmalı ve bu doğrulandıktan sonra `DATA_AT_REST_ENCRYPTED=1` yapılmalıdır. Yedek kanalı yalnızca güvenilir bot yöneticilerince görülebilmelidir.
 
 ## Başvuru
 
